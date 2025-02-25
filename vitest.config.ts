@@ -7,8 +7,10 @@ export default defineConfig({
     setupFiles: './test/setup.ts',
     coverage: {
       all: true,
+      provider: 'istanbul',
       include: ['src/**/*.{ts,tsx,js,jsx}'],
       exclude: ['node_modules', 'test/**/*'],
+      reporter: ['text', 'html', 'lcov'],
       thresholds: {
         lines: 80,
         branches: 80,
