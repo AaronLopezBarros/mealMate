@@ -1,7 +1,7 @@
 import { render, screen } from '@testing-library/react';
 import { describe, it, expect } from 'vitest';
 
-import Home from '../../src/app/page';
+import Home from '@/app/page';
 
 describe('HomePage', () => {
   it('should render corretly when it is mounted', () => {
