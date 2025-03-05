@@ -6,6 +6,6 @@ import Home from '@/app/page';
 describe('HomePage', () => {
   it('should render corretly when it is mounted', () => {
     render(<Home />);
-    expect(screen.getByText('Hello')).toBeInTheDocument();
+    expect(screen.getByText('MealMate')).toBeInTheDocument();
   });
 });
