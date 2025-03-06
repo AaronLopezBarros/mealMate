@@ -1,8 +1,8 @@
 export const Navbar = () => {
   return (
-    <div className='bg-primary flex items-center justify-between border-b border-black p-4 text-black'>
-      <h1 className='text-3xl font-bold'>MealMate</h1>
-      <div className='space-x-4'>
+    <div className='flex items-center justify-between border-b border-black bg-primary p-4 text-black'>
+      <h1 className='text-base-white text-3xl font-bold'>MealMate</h1>
+      <div className='space-x-4 text-white'>
         <a href='#' className='hover:underline'>
           Home
         </a>

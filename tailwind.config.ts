@@ -9,9 +9,9 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: '#A4B465',
-        secondary: '#FFCF50',
-        'background-white': '#f9f8f3',
+        primary: '#3E685C',
+        secondary: '#F19E4B',
+        'base-white': '#f9f8f3',
       },
     },
   },
