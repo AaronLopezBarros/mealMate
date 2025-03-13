@@ -15,7 +15,7 @@ const MyPantryWrapper = () => {
     <section className='h-fit w-full max-w-[500px]'>
       <MyPantry onClick={openModal} />
       <ModalMyPantry isOpen={isModalOpen} onClose={closeModal}>
-        Holaaaaaa
+        Helloooooo
       </ModalMyPantry>
     </section>
   );
