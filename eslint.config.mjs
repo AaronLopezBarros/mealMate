@@ -13,6 +13,14 @@ const eslintConfig = [
   ...compat.config({
     extends: ["next/core-web-vitals"],
     plugins: ["import"],
+    "overrides": [
+    {
+      // Aplica solo a archivos de componentes
+      "files": ["**/components/**/*.tsx"],
+      "rules": {
+        "import/no-named-export": "error" // Fuerza export default solo en componentes
+      }
+    },],
     rules: {
       "no-console": "error",
       "no-unused-vars": "error",
