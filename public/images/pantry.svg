@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 140">
+  <!-- Outer frame of the cabinet -->
+  <rect x="0" y="0" width="320" height="140" fill="#d9b38c" stroke="#a67c52" stroke-width="2"/>
+  
+  <!-- Division between the two doors -->
+  <line x1="160" y1="0" x2="160" y2="140" stroke="#a67c52" stroke-width="2"/>
+  
+  <!-- Left door -->
+  <rect x="5" y="5" width="150" height="130" fill="#e6ccb3" stroke="#a67c52" stroke-width="1"/>
+  
+  <!-- Right door -->
+  <rect x="165" y="5" width="150" height="130" fill="#e6ccb3" stroke="#a67c52" stroke-width="1"/>
+  
+  <!-- Round handle of the left door -->
+  <circle cx="130" cy="70" r="8" fill="#b3b3b3" stroke="#808080" stroke-width="1"/>
+  <circle cx="130" cy="70" r="2" fill="#666666"/>
+  
+  <!-- Round handle of the right door -->
+  <circle cx="190" cy="70" r="8" fill="#b3b3b3" stroke="#808080" stroke-width="1"/>
+  <circle cx="190" cy="70" r="2" fill="#666666"/>
+  
+  <!-- Wood details on the doors - left door -->
+  <rect x="15" y="15" width="130" height="110" fill="none" stroke="#d0a980" stroke-width="1" rx="2" ry="2"/>
+  
+  <!-- Wood details on the doors - right door -->
+  <rect x="175" y="15" width="130" height="110" fill="none" stroke="#d0a980" stroke-width="1" rx="2" ry="2"/>
+  
+  <!-- Cabinet shadow -->
+  <rect x="0" y="135" width="320" height="5" fill="#80808040"/>
+</svg>

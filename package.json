@@ -8,10 +8,12 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "lint:fix": "eslint \"src/**/*.{ts,tsx}\" --fix",
     "test": "vitest",
     "test:coverage": "vitest --coverage --run"
   },
   "dependencies": {
+    "@phosphor-icons/react": "^2.1.7",
     "next": "15.1.6",
     "prettier-plugin-tailwindcss": "^0.6.11",
     "react": "^19.0.0",
